@@ -10,3 +10,7 @@ h1 {
 a {
  color:cyan;
 }
+p {
+ border: solid 4px white;
+ border-radius: 2px;
+}
