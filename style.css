@@ -1,10 +1,12 @@
 h1 {
+ font-family: Helvetica;
  color:cyan;
 }
 a {
  color:cyan;
 }
 body {
+ font-family : Papyrus;
  color:white;
  background-color:black;
 }
