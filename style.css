@@ -11,6 +11,7 @@ a {
  color:cyan;
 }
 p {
- border: solid 3px white;
- border-radius: 3px;
+ padding: 2 px
+ border: solid 2px white;
+ border-radius: 4px;
 }
