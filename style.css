@@ -13,6 +13,6 @@ body {
 p {
  font-family: Papyrus;
  padding: 10px 3px 10px 6px;
- border: solid 2px white;
+ border: inset 2px white;
  border-radius: 4px;
 }
