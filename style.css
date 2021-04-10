@@ -1,17 +1,17 @@
-body {
- font-family : Papyrus;
- color:white;
- background-color:black;
-}
 h1 {
- font-family: Helvetica;
+ text-align: center;
  color:cyan;
+ font-family: Helvetica;
 }
 a {
  color:cyan;
 }
+body {
+ color:white;
+ background-color:black;
+}
 p {
- padding: 2px;
+ padding: 10px 4px 10px 4px;
  border: solid 2px white;
  border-radius: 4px;
 }
