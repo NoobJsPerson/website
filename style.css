@@ -8,7 +8,7 @@ a {
 }
 body {
  color:white;
- background-color:black;
+ background: linear-gradient(-135deg,gray,black);
 }
 p {
  font-family: Papyrus;
