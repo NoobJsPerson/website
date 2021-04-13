@@ -1,10 +1,13 @@
+a,h1 {
+ color:cyan;
+}
 h1 {
  text-align: center;
  color:cyan;
  font-family: Helvetica;
 }
 a {
- color:cyan;
+text-decoration-line: none
 }
 body {
  color:white;
