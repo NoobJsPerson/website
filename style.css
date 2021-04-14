@@ -19,3 +19,7 @@ p {
  border: inset 2px white;
  border-radius: 4px;
 }
+.minitext {
+ text-align: center;
+ font-size: 10px;
+}
