@@ -1,5 +1,4 @@
-const a = document.createElement('a')
+const p = document.createElement('p')
 const body = document.querySelector('body');
 body.append(a)
-a.innerHTML = "The Website Has been started on "+
- location.port;
+a.innerHTML = "Ye thats it"
