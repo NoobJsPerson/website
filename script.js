@@ -8,12 +8,7 @@ const p = document.querySelectorAll(
 let isBlackmode = true;
 
 function changeMode() {
- if (isBlackmode) {
-  body.style.background = "white";
-  body.style.color = "black";
- } else {
-  body.style.background = "black";
-  body.style.color = "white";
- }
+  body.style.background = isBlackmode ? "white" : "black";
+  body.style.color = isBlackmode ? "black" : "white";
  isBlackmode = !isBlackmode;
 }
