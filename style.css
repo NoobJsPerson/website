@@ -1,27 +1,37 @@
-a,h1 {
- color:cyan;
+button {
+  display: block;
+  margin: auto;
 }
+
+a, h1 {
+  color: cyan;
+}
+
 h1 {
- text-align: center;
- color:cyan;
- font-family: Helvetica;
+  text-align: center;
+  color: cyan;
+  font-family: Helvetica;
 }
+
 a {
-text-decoration-line: none;
-font-weight: bold;
+  text-decoration-line: none;
+  font-weight: bold;
 }
+
 body {
- color:white;
- background: linear-gradient(-135deg,gray,black);
+  color: white;
+  background: linear-gradient(-135deg, gray, black, black);
 }
+
 p {
- font-family: Papyrus;
- padding: 10px 3px 10px 6px;
- border: inset 2px white;
- border-radius: 4px;
+  font-family: Papyrus;
+  padding: 10px 3px 10px 6px;
+  border: inset 2px white;
+  border-radius: 4px;
 }
+
 .minitext {
- padding: 10px;
- text-align: center;
- font-size: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
 }
