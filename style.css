@@ -12,12 +12,12 @@ img {
   border-radius: 15px;
 }
 
-a, h1 {
+a, h1, h3 {
   color: cyan;
   font-family: Helvetica;
 }
 
-h1 {
+h1, h3 {
   text-align: center;
   color: cyan;
 }
