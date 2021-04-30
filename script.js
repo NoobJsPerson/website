@@ -4,9 +4,7 @@ const body = document.querySelector('body');
  
  const h3 = document.querySelector('h3');
 
-const p = document.querySelectorAll(
-
- "p");
+const p = document.querySelectorAll("p");
 
 const a = document.querySelectorAll("a");
 
