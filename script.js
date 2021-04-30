@@ -19,8 +19,7 @@ function changeMode() {
   body.style.background = isBlackmode ? "linear-gradient(-135deg,white,gray,gray)" : "linear-gradient(-135deg,gray,black,black)";
 
   body.style.color = colors[0];
-  h1.style.color = colors[1];
-  h3.style.color = colors[1];
+  h1.style.color = h3.style.color = colors[1];
 
   a.forEach(x => x.style.color = colors[1]);
 
