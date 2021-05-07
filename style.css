@@ -1,3 +1,15 @@
+[theme="dark"] {
+  --headings-color: cyan;
+  --text-color: white;
+  --background-color: linear-gradient(-135deg, gray, black, black);
+}
+
+[theme="light"] {
+  --headings-color: black;
+  --text-color: black;
+  --background-color: linear-gradient(-135deg, white, gray, gray);
+}
+
 button {
   display: block;
   margin: auto;
@@ -10,16 +22,16 @@ img {
   width: 100%;
   border: inset 1px white;
   border-radius: 15px;
+  padding-left: 1px;
 }
 
 a, h1, h3 {
-  color: cyan;
+  color: var(--headings-color);
   font-family: Helvetica;
 }
 
 h1, h3 {
   text-align: center;
-  color: cyan;
 }
 
 a {
@@ -28,14 +40,14 @@ a {
 }
 
 body {
-  color: white;
-  background: linear-gradient(-135deg, gray, black, black);
+  color: var(--text-color);
+  background: var(--background-color);
 }
 
 p {
   font-family: Papyrus;
   padding: 10px 3px 10px 6px;
-  border: inset 2px white;
+  border: inset 2px var(--text-color);
   border-radius: 4px;
 }
 
