@@ -56,3 +56,12 @@ p {
   text-align: center;
   font-size: 10px;
 }
+
+button:active {
+  background-color: lightskyblue;
+  border: inset deepskyblue;
+}
+button:active:after {
+  background-color: auto;
+  border: white;
+}
