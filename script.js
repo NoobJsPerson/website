@@ -1,7 +1,7 @@
 const themes = localStorage.getItem("theme");
 if (!themes) {
   document.documentElement.setAttribute("theme", "dark");
-  localStorage.setItem("dark")
+  localStorage.setItem("theme","dark")
 } else document.documentElement.setAttribute("theme", theme);
 const body = document.querySelector('body');
 const h1 = document.querySelector('h1');
