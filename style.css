@@ -19,7 +19,7 @@ button {
 }
 
 img {
-	display: block;
+  display: block;
   width: 100%;
   border: inset 1px white;
   border-radius: 15px;
